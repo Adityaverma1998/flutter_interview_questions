@@ -1,4 +1,5 @@
 import 'package:flitter_interview_preparation/questions/isolation_widget.dart';
+import 'package:flitter_interview_preparation/questions/stream_widget.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -32,7 +33,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:  IsolationWidget(),
+      // home:  IsolationWidget(),
+      home:StreamWidget(),
     );
   }
 }
